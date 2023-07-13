@@ -62,18 +62,3 @@
 <script src="main.js"></script>
 </body>
 </html>
-
-<?php
-
-
-
-$request = $_SERVER['REQUEST_URI'];
-$request = current( explode( '?', $request ) );
-
-// var_dump($request);exit();
-
-if ( str_ends_with( $request, '/' ) && $request != '/' )
-{
-    $request = '/' . str_replace( '/', '', $request );
-    exit();
-}

@@ -11,3 +11,11 @@ docker compose up
 docker compose up -d
 
 ```
+
+### Database
+
+- als het goed is kan je via Sequel Ace met database connectie maken met de volgende gegevens:
+- Host: localhost
+- Username: root
+- Password: root
+- Port: 3307
